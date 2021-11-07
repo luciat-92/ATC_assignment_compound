@@ -34,3 +34,4 @@ Rscript src/assign_atc_to_compounds_by_chembl.R \
 
 echo "ATC assigned to compound list"
 
+cp data/compounds_cMAP_with_atc.csv /group/iorio/lucia/cMAP_shared/
