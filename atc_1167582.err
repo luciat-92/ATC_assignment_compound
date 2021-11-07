@@ -1,0 +1,23 @@
+Loading mkl version 2021.2.0
+Loading compiler-rt version 2021.2.0
+Loading tbb version 2021.2.0
+
+Loading R/4.0.2
+  Loading requirement: jdk/8u291 compiler-rt/2021.2.0 tbb/2021.2.0 mkl/2021.2.0
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in ArgumentParser(description = "Associate ATC to a compound based on chemb ID match") : 
+  could not find function "ArgumentParser"
+Execution halted
+/cm/local/apps/slurm/var/spool/job1167582/slurm_script: line 32: --atc_compounds_json: command not found
+/cm/local/apps/slurm/var/spool/job1167582/slurm_script: line 33: --atc_csv: command not found
+/cm/local/apps/slurm/var/spool/job1167582/slurm_script: line 34: --out: command not found
